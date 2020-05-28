@@ -66,9 +66,8 @@ $ sudo apt-get install ros-kinetic-amcl
 # Run Instructions
 Create a workspace:    
 ```bash
-$ mkdir -p /home/workspace/catkin_ws
-$ cd /home/workspace/catkin_ws
-$ catkin_init_workspace
+$ mkdir -p /home/workspace/catkin_ws/src
+$ cd /home/workspace/catkin_ws/src
 ```   
 
 Clone this git repository in src:    
