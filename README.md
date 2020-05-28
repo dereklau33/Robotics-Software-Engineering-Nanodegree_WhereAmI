@@ -70,13 +70,33 @@ $ mkdir -p /home/workspace/catkin_ws/src
 $ cd /home/workspace/catkin_ws/src
 ```   
 
-Clone this git repository in src:    
+Clone this Git Repository in src:    
 ```bash
 git clone https://github.com/dereklau33/Robotics-Software-Engineering-Nanodegree_WhereAmI.git
 ```  
 
-Build package:  
+Build Package:  
 ```bash
-source devel/setup.bash
-catkin_make
+$ source devel/setup.bash
+$ catkin_make
 ```
+
+Run Project: 
+```bash
+$ cd /home/workspace/catkin_ws
+$ source devel/setup.bash
+``` 
+
+To Launch the Simulation:
+```bash
+$ roslaunch my_robot world.launch
+``` 
+
+To Launch AMCL: 
+```bash
+$ roslaunch my_robot amcl.launch
+``` 
+
+To Move the Robot, Select the "2D Nav Goal" Button in the Toolbar in RViz, then Click and Drag on the Map to Send the Goal to the Robot. The Robot Will Begin to Move and Localize Itself.
+
+
