@@ -11,6 +11,7 @@ In this project, you will learn to utilize ROS AMCL package to accurately locali
 3. Explore, add, and tune specific parameters corresponding to each package to achieve the best possible localization results  
 
 # Project Requirements
+ROS Kinetic
 Gazebo >= 7.0  
 
 # Project Setup
